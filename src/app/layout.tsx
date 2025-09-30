@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 const title = "Facundo Perez | Senior Developer";
 const description =
   "Senior Developer specializing in full stack development with expertise in modern web technologies and cloud solutions.";
-const url = "https://devmates.io";
+const url = "https://portfolio.devmates.io";
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title,
     description,
-    creator: "@facundoperez",
+    creator: "@fnperez",
     images: "/images/open-graph-sagar.png",
   },
   icons: {
