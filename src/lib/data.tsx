@@ -1,39 +1,39 @@
 import { Github, Twitter, Figma } from "lucide-react";
 
-import LogoJavascript from "/public/images/logos/icon-javascript.svg";
-import LogoTypescript from "/public/images/logos/icon-typescript.svg";
-import LogoReact from "/public/images/logos/icon-react.svg";
-import LogoNextjs from "/public/images/logos/icon-nextjs.svg";
-import LogoNodejs from "/public/images/logos/icon-nodejs.svg";
-import LogoExpress from "/public/images/logos/icon-express.svg";
-import LogoExpressLight from "/public/images/logos/icon-express-light.svg";
-import LogoNest from "/public/images/logos/icon-nest.svg";
-import LogoSocket from "/public/images/logos/icon-socket.svg";
-import LogoSocketLight from "/public/images/logos/icon-socket-light.svg";
-import LogoPostgreSQL from "/public/images/logos/icon-postgresql.svg";
-import LogoMongoDB from "/public/images/logos/icon-mongodb.svg";
-import LogoSass from "/public/images/logos/icon-sass.svg";
-import LogoTailwindcss from "/public/images/logos/icon-tailwindcss.svg";
-import LogoFigma from "/public/images/logos/icon-figma.svg";
-import LogoCypress from "/public/images/logos/icon-cypress.svg";
-import LogoCypressLight from "/public/images/logos/icon-cypress-light.svg";
-import LogoStorybook from "/public/images/logos/icon-storybook.svg";
-import LogoGit from "/public/images/logos/icon-git.svg";
-import LogoRedis from "/public/images/logos/icon-redis.svg";
-import LogoDocker from "/public/images/logos/icon-docker.svg";
+import LogoJavascript from "@/public/images/logos/icon-javascript.svg";
+import LogoTypescript from "@/public/images/logos/icon-typescript.svg";
+import LogoReact from "@/public/images/logos/icon-react.svg";
+import LogoNextjs from "@/public/images/logos/icon-nextjs.svg";
+import LogoNodejs from "@/public/images/logos/icon-nodejs.svg";
+import LogoExpress from "@/public/images/logos/icon-express.svg";
+import LogoExpressLight from "@/public/images/logos/icon-express-light.svg";
+import LogoNest from "@/public/images/logos/icon-nest.svg";
+import LogoSocket from "@/public/images/logos/icon-socket.svg";
+import LogoSocketLight from "@/public/images/logos/icon-socket-light.svg";
+import LogoPostgreSQL from "@/public/images/logos/icon-postgresql.svg";
+import LogoMongoDB from "@/public/images/logos/icon-mongodb.svg";
+import LogoSass from "@/public/images/logos/icon-sass.svg";
+import LogoTailwindcss from "@/public/images/logos/icon-tailwindcss.svg";
+import LogoFigma from "@/public/images/logos/icon-figma.svg";
+import LogoCypress from "@/public/images/logos/icon-cypress.svg";
+import LogoCypressLight from "@/public/images/logos/icon-cypress-light.svg";
+import LogoStorybook from "@/public/images/logos/icon-storybook.svg";
+import LogoGit from "@/public/images/logos/icon-git.svg";
+import LogoRedis from "@/public/images/logos/icon-redis.svg";
+import LogoDocker from "@/public/images/logos/icon-docker.svg";
 
-import LogoKuen from "/public/images/logos/logo-kuenapp.svg";
-import LogoClubnito from "/public/images/logo-clubnito.png";
+import LogoKuen from "@/public/images/logos/logo-kuenapp.svg";
+import LogoClubnito from "@/public/images/logo-clubnito.png";
 
-import ProjectBSG from "/public/images/project-bsg.png";
-import ProjectSoCity from "/public/images/project-socity.png";
-import ProjectIlantHealth from "/public/images/project-ilanthealth.png";
-import ProjectSWAQ from "/public/images/project-swaq.png";
-import ProjectSevenStarling from "/public/images/project-sevenstarling.png";
+import ProjectBSG from "@/public/images/project-bsg.png";
+import ProjectSoCity from "@/public/images/project-socity.png";
+import ProjectIlantHealth from "@/public/images/project-ilanthealth.png";
+import ProjectSWAQ from "@/public/images/project-swaq.png";
+import ProjectSevenStarling from "@/public/images/project-sevenstarling.png";
 
-import AvatarKrisztian from "/public/images/avatar-krisztian.png";
-import AvatarEugen from "/public/images/avatar-eugen.png";
-import AvatarDummy from "/public/images/avatar-dummy.svg";
+import AvatarKrisztian from "@/public/images/avatar-krisztian.png";
+import AvatarEugen from "@/public/images/avatar-eugen.png";
+import AvatarDummy from "@/public/images/avatar-dummy.svg";
 
 import {
   ExperienceDetails,
@@ -45,7 +45,6 @@ import {
 export const EXTERNAL_LINKS = {
   GITHUB: "https://github.com/fnperez",
   GITHUB_REPO: "https://github.com/fnperez",
-  TWITTER: "https://twitter.com/shahsagarm",
   FIGMA: "https://www.figma.com/@fnperez",
   FIGMA_FILE:
     "https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop",

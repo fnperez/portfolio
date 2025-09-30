@@ -18,7 +18,6 @@ import ThemeSwitcher from "@/components/general/theme-switcher";
 import IconButton from "@/components/general/icon-button";
 import DownloadCV from "@/components/general/download-cv";
 import Typography from "@/components/general/typography";
-import Image from "next/image";
 import ImageWrapper from "../data-display/image-wrapper";
 
 const Logo = () => (
