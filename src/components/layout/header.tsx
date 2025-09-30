@@ -18,20 +18,17 @@ import ThemeSwitcher from "@/components/general/theme-switcher";
 import IconButton from "@/components/general/icon-button";
 import DownloadCV from "@/components/general/download-cv";
 import Typography from "@/components/general/typography";
-import LogoLightSrc from "/public/images/logo-light.png";
-import LogoDarkSrc from "/public/images/logo.png";
 import Image from "next/image";
+import ImageWrapper from "../data-display/image-wrapper";
 
-const LogoDark = () => (
-  <Image
-    className="hidden dark:block"
-    src={LogoDarkSrc}
+const Logo = () => (
+  <ImageWrapper
+    src="/images/logo-light.png"
+    srcForDarkMode="/images/logo.png"
     alt="Logo"
     width={128}
+    height={128}
   />
-);
-const LogoLight = () => (
-  <Image className="dark:hidden" src={LogoLightSrc} alt="Logo" width={128} />
 );
 
 const Header = () => {
@@ -55,8 +52,7 @@ const Header = () => {
     >
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between p-4 md:px-8">
         <Link href="/" noCustomization>
-          <LogoDark />
-          <LogoLight />
+          <Logo />
         </Link>
         <div className="hidden items-center gap-6 md:flex">
           <ul className="flex list-none items-center gap-6">
@@ -81,8 +77,7 @@ const Header = () => {
           </DrawerTrigger>
           <DrawerContent>
             <div className="flex items-center justify-between border-b border-gray-100 p-4">
-              <LogoDark />
-              <LogoLight />
+              <Logo />
               <DrawerClose asChild>
                 <IconButton>
                   <X />
