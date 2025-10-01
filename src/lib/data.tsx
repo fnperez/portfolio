@@ -53,19 +53,19 @@ export const EXTERNAL_LINKS = {
 export const NAV_LINKS = [
   {
     label: "About",
-    href: "#about",
+    href: "/#about",
   },
   {
     label: "Work",
-    href: "#work",
+    href: "/#work",
   },
-  {
-    label: "Testimonials",
-    href: "#testimonials",
-  },
+  // {
+  //   label: "Testimonials",
+  //   href: "#testimonials",
+  // },
   {
     label: "Contact",
-    href: "#contact",
+    href: "/#contact",
   },
 ];
 
