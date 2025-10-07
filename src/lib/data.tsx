@@ -1,4 +1,4 @@
-import { Github, Twitter, Figma } from "lucide-react";
+import { Github, Linkedin, Figma } from "lucide-react";
 
 import LogoJavascript from "@/public/images/logos/icon-javascript.svg";
 import LogoTypescript from "@/public/images/logos/icon-typescript.svg";
@@ -48,8 +48,6 @@ export const EXTERNAL_LINKS = {
   GITHUB: "https://github.com/fnperez",
   GITHUB_REPO: "https://github.com/fnperez",
   FIGMA: "https://www.figma.com/@fnperez",
-  FIGMA_FILE:
-    "https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop",
 };
 
 export const NAV_LINKS = [
@@ -75,6 +73,10 @@ export const SOCIAL_LINKS = [
   {
     icon: Github,
     url: "https://github.com/fnperez",
+  },
+  {
+    icon: Linkedin,
+    url: "https://linkedin.com/in/fnperez",
   },
   {
     icon: Figma,
