@@ -30,6 +30,8 @@ import ProjectSoCity from "@/public/images/project-socity.png";
 import ProjectIlantHealth from "@/public/images/project-ilanthealth.png";
 import ProjectSWAQ from "@/public/images/project-swaq.png";
 import ProjectSevenStarling from "@/public/images/project-sevenstarling.png";
+import ProjectPhoneEatsFirst from "@/public/images/project-pef.png";
+import ProjectRolltag from "@/public/images/project-rolltag.png";
 
 import AvatarKrisztian from "@/public/images/avatar-krisztian.png";
 import AvatarEugen from "@/public/images/avatar-eugen.png";
@@ -72,15 +74,11 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: "https://github.com/shahsagarm",
-  },
-  {
-    icon: Twitter,
-    url: "https://twitter.com/shahsagarm",
+    url: "https://github.com/fnperez",
   },
   {
     icon: Figma,
-    url: "https://www.figma.com/@shahsagarm",
+    url: "https://www.figma.com/@fnperez",
   },
 ];
 
@@ -228,6 +226,42 @@ export const PROJECTS: ProjectDetails[] = [
       "Typescript",
       "Tailwindcss",
       "Redux Toolkit",
+      "React Query",
+      "Firebase",
+      "Git",
+      "Github Actions",
+      "Sentry",
+    ],
+  },
+  {
+    name: "Rolltag",
+    description:
+      "Chris, an entrepreneur from NY, came to us to develop an app that allows users to capture memorable experiences, allowing groups of friends and colleagues to create collaborative albums of photos and videos.",
+    url: "https://appshunter.io/ios/app/1599026515",
+    previewImage: ProjectRolltag,
+    technologies: [
+      "ReactNative",
+      "Typescript",
+      "Tailwindcss",
+      "MobX",
+      "React Query",
+      "Firebase",
+      "Git",
+      "Github Actions",
+      "Sentry",
+    ],
+  },
+  {
+    name: "PhoneEatsFirst",
+    description:
+      "Phone Eats First is an American startup that was born with the idea of revolutionizing the world of restaurant reviews. They came to me to continue developing the app they had started, which seeks to give users an easy and fun way to share and explore restaurant reviews.",
+    url: "#",
+    previewImage: ProjectPhoneEatsFirst,
+    technologies: [
+      "ReactNative",
+      "Typescript",
+      "Tailwindcss",
+      "MobX",
       "React Query",
       "Firebase",
       "Git",
